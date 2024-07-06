@@ -1,0 +1,14 @@
+#linux Apache server config
+ls -la /var/www/html/
+ls -al /var/www/html/
+sudo groupadd www.data
+sudo newgrp www.data
+sudo useradd jenkins
+passwd jenkins
+sudo chown jenkins:www-data /var/www/html/
+ls- al /var/www/html/
+sudo chown jenkins:www-data -R /var/www/html/
+ls -al /var/www/html/
+sudo chown -R jenkins:www-data /var/www/html/
+sudo chmod -R 755 /var/www/html
+ls- al /var/www/htlm
